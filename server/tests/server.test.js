@@ -263,7 +263,7 @@ describe('POST /users', () => {
 
   it('should not create user if email in use', (done) => {
     var email = 'suliluz@example.com';
-    var password = 'hehehello'
+    var password = 'hehehello';
 
     request(app)
     .post('/users')
